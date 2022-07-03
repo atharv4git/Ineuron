@@ -1,0 +1,122 @@
+INFO : 2022-07-03 00:15:09,871 : root : accessing p1 function
+INFO : 2022-07-03 00:15:09,872 : root : lisst module imported
+INFO : 2022-07-03 00:15:09,872 : root : accessing onlylist function
+INFO : 2022-07-03 00:15:09,873 : root : i == [1, 2, 3, 4]
+INFO : 2022-07-03 00:15:09,873 : root : i == list found [1, 2, 3, 4]
+INFO : 2022-07-03 00:15:09,873 : root : i == (2, 3, 4, 5, 6)
+INFO : 2022-07-03 00:15:09,873 : root : i == (3, 4, 5, 6, 7)
+INFO : 2022-07-03 00:15:09,874 : root : i == {45, 4, 5, 23}
+INFO : 2022-07-03 00:15:09,874 : root : i == {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}
+INFO : 2022-07-03 00:15:09,874 : root : i == ['ineuron', 'data science']
+INFO : 2022-07-03 00:15:09,874 : root : i == list found ['ineuron', 'data science']
+INFO : 2022-07-03 00:15:09,874 : root : accessing onlydict function
+INFO : 2022-07-03 00:15:09,874 : root : i = [1, 2, 3, 4]
+INFO : 2022-07-03 00:15:09,874 : root : i = (2, 3, 4, 5, 6)
+INFO : 2022-07-03 00:15:09,874 : root : i = (3, 4, 5, 6, 7)
+INFO : 2022-07-03 00:15:09,874 : root : i = {45, 4, 5, 23}
+INFO : 2022-07-03 00:15:09,874 : root : i = {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}
+INFO : 2022-07-03 00:15:09,874 : root : i==dict found {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}
+INFO : 2022-07-03 00:15:09,875 : root : i = ['ineuron', 'data science']
+INFO : 2022-07-03 00:15:09,875 : root : accessing onlytuple function
+INFO : 2022-07-03 00:15:09,875 : root : i = [1, 2, 3, 4]
+INFO : 2022-07-03 00:15:09,875 : root : i = (2, 3, 4, 5, 6)
+INFO : 2022-07-03 00:15:09,875 : root : i==tuple found (2, 3, 4, 5, 6)
+INFO : 2022-07-03 00:15:09,875 : root : i = (3, 4, 5, 6, 7)
+INFO : 2022-07-03 00:15:09,875 : root : i==tuple found (3, 4, 5, 6, 7)
+INFO : 2022-07-03 00:15:09,875 : root : i = {45, 4, 5, 23}
+INFO : 2022-07-03 00:15:09,875 : root : i = {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}
+INFO : 2022-07-03 00:15:09,875 : root : i = ['ineuron', 'data science']
+INFO : 2022-07-03 00:15:09,875 : root : accessing listtilllast function
+ERROR : 2022-07-03 00:15:09,875 : root : 'int' object has no attribute 'isnumeric'
+Traceback (most recent call last):
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 158, in onlynumeric
+    listtilllast(self.l)
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 118, in listtilllast
+    listtilllast(i)
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 120, in listtilllast
+    if i.isnumeric():
+AttributeError: 'int' object has no attribute 'isnumeric'
+INFO : 2022-07-03 00:15:09,877 : root : accessing tupletilllast function
+ERROR : 2022-07-03 00:15:09,878 : root : 'list' object has no attribute 'isnumeric'
+Traceback (most recent call last):
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 163, in onlynumeric
+    tupletilllast(self.l)
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 128, in tupletilllast
+    if i.isnumeric():
+AttributeError: 'list' object has no attribute 'isnumeric'
+INFO : 2022-07-03 00:15:09,878 : root : accessing onlydict function
+INFO : 2022-07-03 00:15:09,878 : root : accessing onlysets function
+ERROR : 2022-07-03 00:15:09,878 : root : onlysets() missing 1 required positional argument: 'll'
+Traceback (most recent call last):
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 173, in onlynumeric
+    onlysets()
+TypeError: onlysets() missing 1 required positional argument: 'll'
+INFO : 2022-07-03 00:15:09,878 : root : accessing odds function
+INFO : 2022-07-03 00:15:09,878 : root : accessing searchh function
+INFO : 2022-07-03 00:15:09,878 : root : accessing occurance function
+INFO : 2022-07-03 00:15:09,878 : root : accessing onlykeys function
+INFO : 2022-07-03 00:15:09,878 : root : accessing onlystr function
+INFO : 2022-07-03 00:15:09,879 : root : accessing onlyalnum function
+INFO : 2022-07-03 00:15:09,879 : root : accessing mult function
+INFO : 2022-07-03 00:15:09,879 : root : accessing unwrap function
+INFO : 2022-07-03 09:06:13,274 : root : accessing p1 function
+INFO : 2022-07-03 09:06:13,275 : root : lisst module imported
+INFO : 2022-07-03 09:06:13,275 : root : accessing onlylist function
+INFO : 2022-07-03 09:06:13,276 : root : i == [1, 2, 3, 4]
+INFO : 2022-07-03 09:06:13,276 : root : i == list found [1, 2, 3, 4]
+INFO : 2022-07-03 09:06:13,276 : root : i == (2, 3, 4, 5, 6)
+INFO : 2022-07-03 09:06:13,276 : root : i == (3, 4, 5, 6, 7)
+INFO : 2022-07-03 09:06:13,276 : root : i == {45, 4, 5, 23}
+INFO : 2022-07-03 09:06:13,276 : root : i == {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}
+INFO : 2022-07-03 09:06:13,276 : root : i == ['ineuron', 'data science']
+INFO : 2022-07-03 09:06:13,276 : root : i == list found ['ineuron', 'data science']
+INFO : 2022-07-03 09:06:13,277 : root : accessing onlydict function
+INFO : 2022-07-03 09:06:13,277 : root : i = [1, 2, 3, 4]
+INFO : 2022-07-03 09:06:13,277 : root : i = (2, 3, 4, 5, 6)
+INFO : 2022-07-03 09:06:13,277 : root : i = (3, 4, 5, 6, 7)
+INFO : 2022-07-03 09:06:13,277 : root : i = {45, 4, 5, 23}
+INFO : 2022-07-03 09:06:13,277 : root : i = {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}
+INFO : 2022-07-03 09:06:13,277 : root : i==dict found {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}
+INFO : 2022-07-03 09:06:13,277 : root : i = ['ineuron', 'data science']
+INFO : 2022-07-03 09:06:13,277 : root : accessing onlytuple function
+INFO : 2022-07-03 09:06:13,277 : root : i = [1, 2, 3, 4]
+INFO : 2022-07-03 09:06:13,277 : root : i = (2, 3, 4, 5, 6)
+INFO : 2022-07-03 09:06:13,277 : root : i==tuple found (2, 3, 4, 5, 6)
+INFO : 2022-07-03 09:06:13,277 : root : i = (3, 4, 5, 6, 7)
+INFO : 2022-07-03 09:06:13,277 : root : i==tuple found (3, 4, 5, 6, 7)
+INFO : 2022-07-03 09:06:13,277 : root : i = {45, 4, 5, 23}
+INFO : 2022-07-03 09:06:13,277 : root : i = {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}
+INFO : 2022-07-03 09:06:13,277 : root : i = ['ineuron', 'data science']
+INFO : 2022-07-03 09:06:13,277 : root : accessing listtilllast function
+ERROR : 2022-07-03 09:06:13,277 : root : 'int' object has no attribute 'isnumeric'
+Traceback (most recent call last):
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 158, in onlynumeric
+    listtilllast(self.l)
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 118, in listtilllast
+    listtilllast(i)
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 120, in listtilllast
+    if i.isnumeric():
+AttributeError: 'int' object has no attribute 'isnumeric'
+INFO : 2022-07-03 09:06:13,280 : root : accessing tupletilllast function
+ERROR : 2022-07-03 09:06:13,280 : root : 'list' object has no attribute 'isnumeric'
+Traceback (most recent call last):
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 163, in onlynumeric
+    tupletilllast(self.l)
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 128, in tupletilllast
+    if i.isnumeric():
+AttributeError: 'list' object has no attribute 'isnumeric'
+INFO : 2022-07-03 09:06:13,281 : root : accessing onlydict function
+INFO : 2022-07-03 09:06:13,281 : root : accessing onlysets function
+ERROR : 2022-07-03 09:06:13,281 : root : onlysets() missing 1 required positional argument: 'll'
+Traceback (most recent call last):
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 173, in onlynumeric
+    onlysets()
+TypeError: onlysets() missing 1 required positional argument: 'll'
+INFO : 2022-07-03 09:06:13,281 : root : accessing odds function
+INFO : 2022-07-03 09:06:13,281 : root : accessing searchh function
+INFO : 2022-07-03 09:06:13,282 : root : accessing occurance function
+INFO : 2022-07-03 09:06:13,282 : root : accessing onlykeys function
+INFO : 2022-07-03 09:06:13,282 : root : accessing onlystr function
+INFO : 2022-07-03 09:06:13,282 : root : accessing onlyalnum function
+INFO : 2022-07-03 09:06:13,282 : root : accessing mult function
+INFO : 2022-07-03 09:06:13,282 : root : accessing unwrap function

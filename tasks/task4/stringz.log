@@ -1,0 +1,14 @@
+INFO : 2022-07-03 09:05:59,100 : root : strings module imported
+INFO : 2022-07-03 09:05:59,100 : root : success in extract -  book or other writ
+INFO : 2022-07-03 09:05:59,101 : root : success in extract_jump -   tw
+ERROR : 2022-07-03 09:05:59,101 : root : local variable 'l' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\athar\PycharmProjects\oops1\task\custom_module\allfunc.py", line 27, in reverse
+    logging.info("success in reverse - %s",self.s[-1:-(l+1):-1])
+UnboundLocalError: local variable 'l' referenced before assignment
+INFO : 2022-07-03 09:05:59,104 : root : success in upp - A BOOK OR OTHER WRITTEN OR PRINTED WORK, REGARDED IN TERMS OF ITS CONTENT RATHER THAN ITS PHYSICAL FORM.
+INFO : 2022-07-03 09:05:59,104 : root : success in loww - a book or other written or printed work, regarded in terms of its content rather than its physical form.
+INFO : 2022-07-03 09:05:59,104 : root : success in splitt - ['a', 'book', 'or', 'other', 'written', 'or', 'printed', 'work,', 'regarded', 'in', 'terms', 'of', 'its', 'content', 'rather', 'than', 'its', 'physical', 'form.']
+INFO : 2022-07-03 09:05:59,104 : root : trying stripp
+INFO : 2022-07-03 09:05:59,104 : root : x == 's' found
+INFO : 2022-07-03 09:05:59,104 : root : trying replacee

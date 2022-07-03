@@ -1,0 +1,18 @@
+INFO : 2022-07-03 09:06:05,923 : root : lisst module imported
+INFO : 2022-07-03 09:06:05,923 : root : accessing reversee function
+INFO : 2022-07-03 09:06:05,923 : root : accessing searchh function
+INFO : 2022-07-03 09:06:05,923 : root : accessing onlylist function
+INFO : 2022-07-03 09:06:05,923 : root : i == 3
+INFO : 2022-07-03 09:06:05,923 : root : i == 4
+INFO : 2022-07-03 09:06:05,924 : root : i == 5
+INFO : 2022-07-03 09:06:05,924 : root : i == 6
+INFO : 2022-07-03 09:06:05,924 : root : i == 7
+INFO : 2022-07-03 09:06:05,924 : root : i == [23, 456, 67, 8, 78, 78]
+INFO : 2022-07-03 09:06:05,924 : root : i == list found [23, 456, 67, 8, 78, 78]
+INFO : 2022-07-03 09:06:05,924 : root : i == [345, 56, 87, 8, 98, 9]
+INFO : 2022-07-03 09:06:05,924 : root : i == list found [345, 56, 87, 8, 98, 9]
+INFO : 2022-07-03 09:06:05,924 : root : i == (234, 6657, 6)
+INFO : 2022-07-03 09:06:05,924 : root : i == {'key1': 'sudh', 234: [23, 45, 656]}
+INFO : 2022-07-03 09:06:05,924 : root : accessing dicts function
+INFO : 2022-07-03 09:06:05,924 : root : accessing onlykeys function
+INFO : 2022-07-03 09:06:05,924 : root : accessing onlyvalues function
